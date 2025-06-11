@@ -25,8 +25,7 @@ body {
 .hom {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-family: var;
-  color: #2e2f42;
+  color: #434455;
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
@@ -126,8 +125,10 @@ body {
   text-align: center;
 }
 .given-commands {
-  background-color: #ffffff;
   list-style-type: none;
+}
+.mark {
+  background-color: #ffffff;
 }
 .mark-a {
   color: #2e2f42;

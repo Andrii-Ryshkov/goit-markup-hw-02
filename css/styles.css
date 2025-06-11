@@ -22,6 +22,9 @@ body {
   list-style: none;
   font-style: normal;
 }
+.title-page-a {
+  font-style: normal;
+}
 .hom {
   color: #2e2f42;
   line-height: 1.5;

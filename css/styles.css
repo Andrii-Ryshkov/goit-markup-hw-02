@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
   padding: 0px;
 }
@@ -15,22 +15,22 @@ body {
   display: flex;
 }
 .basis {
-  font-family: var;
-  line-height: 1.16667;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 18px;
   display: block;
   text-decoration: none;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
   padding-left: 156px;
   padding-top: 24px;
   padding-bottom: 24px;
   padding-right: 76px;
 }
 .text {
-  color: #4d5ae5;
+  color: #2e2f42;
   font-size: 18px;
 }
 .title-page {
@@ -42,7 +42,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: var;
-  color: var;
+  color: #434455;
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
@@ -51,7 +51,12 @@ body {
   padding-top: 24px;
   padding-bottom: 24;
 }
-
+.hom:hover {
+  color: #404bbf;
+}
+.title-nov {
+  font-style: normal;
+}
 .itle-info {
   display: flex;
   list-style: none;
@@ -99,9 +104,11 @@ body {
   color: #ffffff;
 }
 .top {
-  font-family: var;
+  line-height: 1.07;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 56px;
+  letter-spacing: 0.02em;
   text-align: center;
   padding-top: 188px;
   padding-bottom: 48px;
@@ -109,21 +116,24 @@ body {
   padding-left: 472px;
 }
 .button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   box-shadow: 0 4px 4px 0 rgba;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
   gap: 10px;
   background-color: #4d5ae5;
   color: #ffffff;
   margin-left: 636px;
   margin-right: 635px;
   margin-bottom: 188px;
+}
+.button:hover {
+  background-color: #404bbf;
 }
 /* description */
 .secret {
@@ -150,7 +160,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var;
+  color: #434455;
   padding-top: 8px;
   padding-right: 24px;
   padding-left: 156px;
@@ -159,87 +169,30 @@ body {
 .second-description {
   font-family: var;
 }
-.second-a {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var;
-  padding-left: 24px;
-  padding-top: 24px;
-  padding-top: 120px;
-}
-.des-b {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var;
-  padding-top: 8px;
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-bottom: 120px;
-}
+
 .third-description {
   font-family: var;
 }
-.third-a {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var;
-  padding-left: 24px;
-  padding-top: 24px;
-  padding-top: 120px;
-}
-.des-d {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var;
-  padding-top: 8px;
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-bottom: 120px;
-}
+
 .fourth-description {
   font-family: var;
 }
-.fourth-a {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var;
-  padding-left: 24px;
-  padding-top: 120px;
-}
-.des-s {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var;
-  padding-top: 8px;
-  padding-right: 156px;
-  padding-left: 24px;
-  padding-bottom: 120px;
-}
+
 /* team */
 .development-team {
   background-color: #f4f4fd;
 }
 .beginning-top {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   padding-top: 120px;
 }
 .given-commands {
+  background-color: #ffffff;
   display: flex;
   list-style-type: none;
 }
@@ -250,6 +203,7 @@ body {
   padding-right: 24px;
 }
 .mark-a {
+  color: #434455;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -269,39 +223,11 @@ body {
   padding-left: 24px;
   padding-right: 24px;
 }
-.tom-a {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-.to-a {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
 .camila {
   padding-top: 72px;
   padding-bottom: 120px;
   padding-left: 24px;
   padding-right: 24px;
-}
-.camila-a {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-.ca-a {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
 }
 .daniel {
   padding-top: 72px;
@@ -309,28 +235,15 @@ body {
   padding-left: 24px;
   padding-right: 156px;
 }
-.daniel-a {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-.da-a {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
 /* portfolio */
 .basic-functions {
   display: inline-block;
 }
 .beginning-top-a {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: var;
@@ -362,7 +275,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var;
+  color: #434455;
 }
 .port-b {
   padding-left: 24px;
@@ -370,43 +283,11 @@ body {
   padding-top: 72px;
   padding-bottom: 48px;
 }
-.list-b {
-  font-family: var;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: navy-blue;
-}
-.li-b {
-  font-family: var;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var;
-}
 .port-s {
   padding-left: 24px;
   padding-right: 0;
   padding-top: 72px;
   padding-bottom: 48px;
-}
-.list-s {
-  font-family: var;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: navy-blue;
-}
-.li-s {
-  font-family: var;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var;
 }
 .port-c {
   padding-left: 156px;
@@ -414,43 +295,11 @@ body {
   padding-top: 48px;
   padding-bottom: 120px;
 }
-.list-c {
-  font-family: var;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: navy-blue;
-}
-.li-c {
-  font-family: var;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var;
-}
 .port-d {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 48px;
   padding-bottom: 120px;
-}
-.list-d {
-  font-family: var;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: navy-blue;
-}
-.li-d {
-  font-family: var;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var;
 }
 .port-e {
   padding-left: 24px;
@@ -458,23 +307,6 @@ body {
   padding-top: 48px;
   padding-bottom: 120px;
 }
-.list-e {
-  font-family: var;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: navy-blue;
-}
-.li-e {
-  font-family: var;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var;
-}
-
 /* footer */
 .basement {
   background-color: #2e2f42;
@@ -484,20 +316,20 @@ body {
   display: block;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
   letter-spacing: 0.03em;
+  line-height: 1.17;
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
-  font-family: var;
+  font-family: "Raleway", sans-serif;
   padding-top: 100px;
   padding-left: 156px;
   padding-right: 1169px;
   padding-bottom: 16px;
+  color: #4d5ae5;
 }
 .text-a {
-  color: #4d5ae5;
-  text-transform: uppercase;
+  color: #f4f4fd;
 }
 .info-text {
   display: block;

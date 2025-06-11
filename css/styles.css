@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: #2e2f42;
   background-color: #ffffff;
 }
 /* navigation */
@@ -23,9 +23,9 @@ body {
   font-style: normal;
 }
 .hom {
+  color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
@@ -36,34 +36,13 @@ body {
 .hom:focus {
   color: #404bbf;
 }
-.title-nov {
-  font-style: normal;
-}
-.itle-info {
+.title-info {
   list-style: none;
 }
 .title-a {
   list-style: none;
 }
-.info {
-  text-decoration: none;
-  color: #2e2f42;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.title-b {
-  list-style: none;
-}
-.tel {
-  text-decoration: none;
-  color: #2e2f42;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
 /* the-main */
 .main-text {
   background-color: #2e2f42;
